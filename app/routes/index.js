@@ -40,6 +40,15 @@ app.get('/crearCitas', controllers.index.crearCitas);
 
 app.post('/crearCitas',controllers.index.crearCitasP);
 
+app.get('/verEnfermedades',controllers.index.verEnfermedades);
+
+app.get('/verMedicamentos',controllers.index.verMedicamentos);
+
+app.get('/modificarMedicamentos',controllers.index.modificarMedicamentos);
+
+app.post('/modificarMedicamentos',controllers.index.modificarMedicamentosP);
+
+
 }
 
 

@@ -20,16 +20,16 @@ require('./app/config/set-config-express')(app);
 module.exports = app;
  
 //Rutas de mi aplicación
-require(path.join(process.cwd(), 'app', 'routes'))();
+//require(path.join(process.cwd(), 'app', 'routes'))();
 
 
-/*app.get("/",function (req, res) {
+app.get("/",function (req, res) {
 
     //try {
-      return res.render('resultadoBuscarDatos');
+      return res.render('crearHistoriaCardio');
    // } catch (e) {
     //  console.log("Error");
-    });*/
+    });
 //Ejecuto el servidor
 app.listen(8080);
 
